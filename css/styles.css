@@ -144,11 +144,11 @@ img {
   background-color: #2e2f42;
   text-align: center;
   background-image: linear-gradient(
-      to bottom,
-      rgba(19, 20, 28, 0.7),
+      rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(/images/heroimage.jpg);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -303,13 +303,18 @@ img {
   margin-top: 8px;
 }
 
+.item-icon-team {
+  width: 40px;
+  height: 40px;
+}
+
 .link-icon-team {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 12px;
-  max-width: 40px;
-  max-height: 40px;
+  width: 100%;
+  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50% 50%;
   transition-property: background-color;
@@ -423,7 +428,11 @@ img {
 
 .footer-container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+}
+
+.footer-block-first {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -444,6 +453,7 @@ img {
 }
 
 .text-footer-second {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -454,18 +464,23 @@ img {
 /*ICON FOOTER*/
 .icon-footer-block {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   justify-content: center;
   margin-top: 8px;
 }
 
+.item-icon-footer {
+  width: 40px;
+  height: 40px;
+}
+
 .link-icon-footer {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 8px;
-  max-width: 40px;
-  max-height: 40px;
+  width: 100%;
+  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50% 50%;
   transition-property: background-color;
