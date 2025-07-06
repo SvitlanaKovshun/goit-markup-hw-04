@@ -138,12 +138,14 @@ img {
 
 /*Section hero-baner*/
 .hero-baner {
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 188px 0;
   background-color: #2e2f42;
   text-align: center;
   background-image: linear-gradient(
       to bottom,
-      rgba(46, 47, 66, 0.7),
+      rgba(19, 20, 28, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(/images/heroimage.jpg);
@@ -216,7 +218,10 @@ img {
 
 .icon-advantages-block {
   display: flex;
+  align-items: center;
   justify-content: center;
+  height: 112px;
+  margin-bottom: 8px;
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -224,7 +229,7 @@ img {
 }
 
 .advantages-item-title {
-  margin: 8px 0;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
